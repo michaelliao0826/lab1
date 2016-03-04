@@ -1,0 +1,13 @@
+Script started on 2016年03月05日 (週六) 00時21分57秒
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ whoami; [wd[K[K[Kpwd
+F74046145
+/home/F74046145
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ git config -l
+user.name=michaelliao0826
+user.email=a194748a@gmail.com
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ gir[Kt clone https://github.com/michaelliao0826/lab1.git
+Cloning into 'lab1'...
+warning: You appear to have cloned an empty repository.
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ exit
+
+Script done on 2016年03月05日 (週六) 00時22分47秒
