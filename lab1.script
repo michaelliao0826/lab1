@@ -1,0 +1,344 @@
+Script started on 2016年03月08日 (週二) 13時16分59秒
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ ls
+[0m[01;34mlab1[0m  lab1.script
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ ls./lab1g++ -o lab1 lab1.cpp[8Pvim[C[C[C[C[C[C[C[C[C[6P./lab1[4Plsg++ -o lab1 lab1.cpp[8Pvim[C[C[C[C[C[C[C[C[Cls[Kcd lab1vim lab1.cppls[Kg++ -o lab1.cpp lab1ls[Kvim lab1.cpp[5Pcd lab1ls[Kvim lab1.cpp[8@g++ -o lab1[C[C[C[C[C[C[C[C[Cls[K./lab1vim lab1.cpp[8@g++ -o lab1[C[C[C[C[C[C[C[C[C./lab1[K[4Pls[Kls./lab1g++ -o lab1 lab1.cpp[8Pvim[C[C[C[C[C[C[C[C[C[6P./lab1[4Plsg++ -o lab1 lab1.cpp[8Pvim[C[C[C[C[C[C[C[C[Cls[Kcd lab1vim lab1.cpp[5Pcd lab1ls[Kvim lab1.cpp[8@g++ -o lab1[C[C[C[C[C[C[C[C[Cls[K./lab1vim lab1.cpp[8@g++ -o lab1[C[C[C[C[C[C[C[C[C./lab1[K[4Pls[Kgit config [K[K[K[K[K[Klond h[K[K[K[Kne https://github.com/michaelliao0826/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ [K]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ cat lab1.script
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ ls
+[0m[01;34mlab1[0m  lab1.script
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ mv lab1.script lab1
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ ls
+[0m[01;34mlab1[0m
+]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ cd lab1
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ ls
+lab1  lab1.cpp  lab1.script
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ got[K[Kit add lab1.script
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   lab1.script
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	lab1
+#	lab1.cpp
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git commit
+[?1049h[?1h=[1;58r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[58;1H".git/COMMIT_EDITMSG" 17L, 388C[>c[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch [m[35mmaster[m
+[34m#
+# Initial commit
+#
+# [m[35mChanges to be committed:[m
+[34m#   (use "git rm --cached <file>..." to unstage)
+#
+#       [m[32mnew file[m[34m: [m[31m  lab1.script[m
+[34m#
+# [m[35mUntracked files:[m
+[34m#   (use "git add <file>..." to include in what will be committed)
+#
+#       [m[31mlab1[m
+[34m#       [m[31mlab1.cpp[m
+[1m[34m~                                                                                                                                                                                               [19;1H~                                                                                                                                                                                               [20;1H~                                                                                                                                                                                               [21;1H~                                                                                                                                                                                               [22;1H~                                                                                                                                                                                               [23;1H~                                                                                                                                                                                               [24;1H~                                                                                                                                                                                               [25;1H~                                                                                                                                                                                               [26;1H~                                                                                                                                                                                               [27;1H~                                                                                                                                                                                               [28;1H~                                                                                                                                                                                               [29;1H~                                                                                                                                                                                               [30;1H~                                                                                                                                                                                               [31;1H~                                                                                                                                                                                               [32;1H~                                                                                                                                                                                               [33;1H~                                                                                                                                                                                               [34;1H~                                                                                                                                                                                               [35;1H~                                                                                                                                                                                               [36;1H~                                                                                                                                                                                               [37;1H~                                                                                                                                                                                               [38;1H~                                                                                                                                                                                               [39;1H~                                                                                                                                                                                               [40;1H~                                                                                                                                                                                               [41;1H~                                                                                                                                                                                               [42;1H~                                                                                                                                                                                               [43;1H~                                                                                                                                                                                               [44;1H~                                                                                                                                                                                               [45;1H~                                                                                                                                                                                               [46;1H~                                                                                                                                                                                               [47;1H~                                                                                                                                                                                               [48;1H~                                                                                                                                                                                               [49;1H~                                                                                                                                                                                               [50;1H~                                                                                                                                                                                               [51;1H~                                                                                                                                                                                               [52;1H~                                                                                                                                                                                               [53;1H~                                                                                                                                                                                               [54;1H~                                                                                                                                                                                               [55;1H~                                                                                                                                                                                               [56;1H~                                                                                                                                                                                               [57;1H~                                                                                                                                                                                               [m[58;175H1,0-1[8C全部[1;1H[?12l[?25h[?25l[58;1H[1m-- 插入 --[m[58;11H[K[58;175H1,1[10C全部[1;1H[?12l[?25h[?25l[33ma[m[58;177H2[1;2H[?12l[?25h[?25l[33mad[m[58;177H3[1;3H[?12l[?25h[?25l[33mdd[m[58;177H4[1;4H[?12l[?25h[?25l[33mdi[m[58;177H5[1;5H[?12l[?25h[?25l[33min[m[58;177H6[1;6H[?12l[?25h[?25l[33mng[m[58;177H7[1;7H[?12l[?25h[?25l[33m [m[58;177H8[1;8H[?12l[?25h[?25l[33m l[m[58;177H9[1;9H[?12l[?25h[?25l[33mla[m[58;177H10[1;10H[?12l[?25h[?25l[33mab[m[58;178H1[1;11H[?12l[?25h[?25l[33mb1[m[58;178H2[1;12H[?12l[?25h[?25l[33m1.[m[58;178H3[1;13H[?12l[?25h[?25l[33m.s[m[58;178H4[1;14H[?12l[?25h[?25l[33msc[m[58;178H5[1;15H[?12l[?25h[?25l[33mcr[m[58;178H6[1;16H[?12l[?25h[?25l[33mri[m[58;178H7[1;17H[?12l[?25h[?25l[33mip[m[58;178H8[1;18H[?12l[?25h[?25l[33mpt[m[58;178H9[1;19H[?12l[?25h[?25l[2;57r[2;1H[L[1;58r[58;175H[K[58;175H2,1[10C全部[2;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[1;1H[33madding lab1.script[m[57;1H[1m[34m~                                                                                                                                                                                               [m[58;175H[K[58;175H1,19[9C全部[1;19H[?12l[?25h[58;1H[K[1;18H[?25l[58;175H1,18[9C全部[1;18H[?12l[?25h[?25l[58;175H[K[58;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 17L, 406C 已寫入
+[?1l>[?12l[?25h[?1049l[master (root-commit) 9549c2c] adding lab1.script
+ 0 files changed
+ create mode 100644 lab1.script
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remote add
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remote [K[K[K[K[K[K[Kpush
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git push [K[K[K[K[Kren[Kmote[K[K[K[K[K[Kpush origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: The remote end hung up unexpectedly
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remoter[K add lab1 https://github.com/michaelliao0826/lab1.git
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git push lab1
+Username for 'https://github.com': michaelliao0826
+Password for 'https://michaelliao0826@github.com': 
+To https://github.com/michaelliao0826/lab1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/michaelliao0826/lab1.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git push lab1[Kgit config -l
+user.name=michaelliao0826
+user.email=a194748a@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lab1.url=https://github.com/michaelliao0826/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git config -lpush lab1
+Username for 'https://github.com': michaelliao           F74046145
+Password for 'https://F74046145@github.com': 
+fatal: Authentication failed
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git push lab1[Kgit push lab1
+Username for 'https://github.com': michaelliao0826
+Password for 'https://michaelliao0826@github.com': 
+To https://github.com/michaelliao0826/lab1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/michaelliao0826/lab1.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remote show origin
+fatal: 'origin' does not appear to be a git repository
+fatal: The remote end hung up unexpectedly
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remote show lab1
+* remote lab1
+  Fetch URL: https://github.com/michaelliao0826/lab1.git
+  Push  URL: https://github.com/michaelliao0826/lab1.git
+  HEAD branch: master
+  Remote branch:
+    master new (next fetch will store in remotes/lab1)
+  Local ref configured for 'git push':
+    master pushes to master (local out of date)
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git push lab1 master
+Username for 'https://github.com': michaelliao0826
+Password for 'https://michaelliao0826@github.com': 
+To https://github.com/michaelliao0826/lab1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/michaelliao0826/lab1.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git push --help
+[?1049h[?1h=GIT-PUSH(1)                                                                              Git Manual                                                                             GIT-PUSH(1)[m
+[m
+[1mNAME[0m[m
+       git-push - Update remote refs along with associated objects[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mpush[24m [--all | --mirror | --tags] [-n | --dry-run] [--receive-pack=<git-receive-pack>][m
+                  [--repo=<repository>] [-f | --force] [-v | --verbose] [-u | --set-upstream][m
+                  [<repository> [<refspec>...]][m
+[m
+[1mDESCRIPTION[0m[m
+       Updates remote refs using local refs, while sending objects necessary to complete the given refs.[m
+[m
+       You can make interesting things happen to a repository every time you push into it, by setting up [4mhooks[24m there. See documentation for [1mgit-receive-pack[0m(1).[m
+[m
+[1mOPTIONS[0m[m
+       <repository>[m
+           The "remote" repository that is destination of a push operation. This parameter can be either a URL (see the section GIT URLS below) or the name of a remote (see the section[m
+           REMOTES below).[m
+[m
+       <refspec>...[m
+           The format of a <refspec> parameter is an optional plus +, followed by the source ref <src>, followed by a colon :, followed by the destination ref <dst>. It is used to specify[m
+           with what <src> object the <dst> ref in the remote repository is to be updated.[m
+[m
+           The <src> is often the name of the branch you would want to push, but it can be any arbitrary "SHA-1 expression", such as master~4 or HEAD (see [1mgitrevisions[0m(7)).[m
+[m
+           The <dst> tells which ref on the remote side is updated with this push. Arbitrary expressions cannot be used here, an actual ref must be named. If :<dst> is omitted, the same[m
+           ref as <src> will be updated.[m
+[m
+           The object referenced by <src> is used to update the <dst> reference on the remote side, but by default this is only allowed if the update can fast-forward <dst>. By having the[m
+           optional leading +, you can tell git to update the <dst> ref even when the update is not a fast-forward. This does [1mnot[0m attempt to merge <src> into <dst>. See EXAMPLES below for[m
+           details.[m
+[m
+           tag <tag> means the same as refs/tags/<tag>:refs/tags/<tag>.[m
+[m
+           Pushing an empty <src> allows you to delete the <dst> ref from the remote repository.[m
+[m
+           The special refspec : (or +: to allow non-fast-forward updates) directs git to push "matching" branches: for every branch that exists on the local side, the remote side is[m
+           updated if a branch of the same name already exists on the remote side. This is the default operation mode if no explicit refspec is found (that is neither on the command line[m
+           nor in any Push line of the corresponding remotes file---see below).[m
+[m
+       --all[m
+           Instead of naming each ref to push, specifies that all refs under refs/heads/ be pushed.[m
+[m
+       --mirror[m
+           Instead of naming each ref to push, specifies that all refs under refs/ (which includes but is not limited to refs/heads/, refs/remotes/, and refs/tags/) be mirrored to the[m
+           remote repository. Newly created local refs will be pushed to the remote end, locally updated refs will be force updated on the remote end, and deleted refs will be removed[m
+           from the remote end. This is the default if the configuration option remote.<remote>.mirror is set.[m
+[m
+       -n, --dry-run[m
+           Do everything except actually send the updates.[m
+[m
+       --porcelain[m
+           Produce machine-readable output. The output status line for each ref will be tab-separated and sent to stdout instead of stderr. The full symbolic names of the refs will be[m
+           given.[m
+[m
+       --delete[m
+[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page git-push(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           All listed refs are deleted from the remote repository. This is the same as prefixing all refs with a colon.[m
+[7m Manual page git-push(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --tags[m
+[7m Manual page git-push(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           All refs under refs/tags are pushed, in addition to refspecs explicitly listed on the command line.[m
+[7m Manual page git-push(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --receive-pack=<git-receive-pack>, --exec=<git-receive-pack>[m
+[7m Manual page git-push(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Path to the [4mgit-receive-pack[24m program on the remote end. Sometimes useful when pushing to a remote repository over ssh, and you do not have the program in a directory on the[m
+[7m Manual page git-push(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           default $PATH.[m
+[7m Manual page git-push(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -f, --force[m
+[7m Manual page git-push(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Usually, the command refuses to update a remote ref that is not an ancestor of the local ref used to overwrite it. This flag disables the check. This can cause the remote[m
+[7m Manual page git-push(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           repository to lose commits; use it with care.[m
+[7m Manual page git-push(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --repo=<repository>[m
+[7m Manual page git-push(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option is only relevant if no <repository> argument is passed in the invocation. In this case, [4mgit[24m [4mpush[24m derives the remote name from the current branch: If it tracks a[m
+[7m Manual page git-push(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           remote branch, then that remote repository is pushed to. Otherwise, the name "origin" is used. For this latter case, this option can be used to override the name "origin". In[m
+[7m Manual page git-push(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           other words, the difference between these two commands[m
+[7m Manual page git-push(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               git push public         #1[m
+[7m Manual page git-push(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               git push --repo=public  #2[m
+[7m Manual page git-push(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           is that #1 always pushes to "public" whereas #2 pushes to "public" only if the current branch does not track a remote branch. This is useful if you write an alias or script[m
+[7m Manual page git-push(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           around [4mgit[24m [4mpush[24m.[m
+[7m Manual page git-push(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -u, --set-upstream[m
+[7m Manual page git-push(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less [1mgit-pull[0m(1) and other commands. For more information, see[m
+[7m Manual page git-push(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mbranch.<name>.merge[24m in [1mgit-config[0m(1).[m
+[7m Manual page git-push(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --thin, --no-thin[m
+[7m Manual page git-push(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           These options are passed to [1mgit-send-pack[0m(1). A thin transfer significantly reduces the amount of sent data when the sender and receiver share many of the same objects in[m
+[7m Manual page git-push(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           common. The default is --thin.[m
+[7m Manual page git-push(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -q, --quiet[m
+[7m Manual page git-push(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Suppress all output, including the listing of updated refs, unless an error occurs. Progress is not reported to the standard error stream.[m
+[7m Manual page git-push(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -v, --verbose[m
+[7m Manual page git-push(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Run verbosely.[m
+[7m Manual page git-push(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --progress[m
+[7m Manual page git-push(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Progress status is reported on the standard error stream by default when it is attached to a terminal, unless -q is specified. This flag forces progress status even if the[m
+[7m Manual page git-push(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           standard error stream is not directed to a terminal.[m
+[7m Manual page git-push(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --recurse-submodules=check[m
+[7m Manual page git-push(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Check whether all submodule commits used by the revisions to be pushed are available on a remote tracking branch. Otherwise the push will be aborted and the command will exit[m
+[7m Manual page git-push(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           with non-zero status.[m
+[7m Manual page git-push(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mGIT[0m [1mURLS[0m[m
+[7m Manual page git-push(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       In general, URLs contain information about the transport protocol, the address of the remote server, and the path to the repository. Depending on the transport protocol, some of[m
+[7m Manual page git-push(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       this information may be absent.[m
+[7m Manual page git-push(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Git natively supports ssh, git, http, https, ftp, ftps, and rsync protocols. The following syntaxes may be used with them:[m
+[7m Manual page git-push(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   ssh://[user@]host.xz[:port]/path/to/repo.git/[m
+[7m Manual page git-push(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   git://host.xz[:port]/path/to/repo.git/[m
+[7m Manual page git-push(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   http[s]://host.xz[:port]/path/to/repo.git/[m
+[7m Manual page git-push(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   ftp[s]://host.xz[:port]/path/to/repo.git/[m
+[7m Manual page git-push(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   rsync://host.xz/path/to/repo.git/[m
+[7m Manual page git-push(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       An alternative scp-like syntax may also be used with the ssh protocol:[m
+[7m Manual page git-push(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   [user@]host.xz:path/to/repo.git/[m
+[7m Manual page git-push(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The ssh and git protocols additionally support ~username expansion:[m
+[7m Manual page git-push(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   ssh://[user@]host.xz[:port]/~[user]/path/to/repo.git/[m
+[7m Manual page git-push(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   git://host.xz[:port]/~[user]/path/to/repo.git/[m
+[7m Manual page git-push(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   [user@]host.xz:/~[user]/path/to/repo.git/[m
+[7m Manual page git-push(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       For local repositories, also supported by git natively, the following syntaxes may be used:[m
+[7m Manual page git-push(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ·   /path/to/repo.git/[m
+[7m Manual page git-push(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git-push(1) line 82 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git add lab1.cpp
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git add lab1
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git
+usage: git [--version] [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [-c name=value] [--help]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and merge with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+See 'git help <command>' for more information on a specific command.
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git commit
+[?1049h[?1h=[1;58r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[58;1H".git/COMMIT_EDITMSG" 16L, 480C[>c[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch [m[35mmaster[m
+[34m# [m[35mChanges to be committed:[m
+[34m#   (use "git reset HEAD <file>..." to unstage)
+#
+#       [m[32mnew file[m[34m: [m[31m  lab1[m
+[34m#       [m[32mnew file[m[34m: [m[31m  lab1.cpp[m
+[34m#
+# [m[35mChanges not staged for commit:[m
+[34m#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#       [m[32mmodified[m[34m: [m[31m  lab1.script[m
+[34m#[m
+[1m[34m~                                                                                                                                                                                               [18;1H~                                                                                                                                                                                               [19;1H~                                                                                                                                                                                               [20;1H~                                                                                                                                                                                               [21;1H~                                                                                                                                                                                               [22;1H~                                                                                                                                                                                               [23;1H~                                                                                                                                                                                               [24;1H~                                                                                                                                                                                               [25;1H~                                                                                                                                                                                               [26;1H~                                                                                                                                                                                               [27;1H~                                                                                                                                                                                               [28;1H~                                                                                                                                                                                               [29;1H~                                                                                                                                                                                               [30;1H~                                                                                                                                                                                               [31;1H~                                                                                                                                                                                               [32;1H~                                                                                                                                                                                               [33;1H~                                                                                                                                                                                               [34;1H~                                                                                                                                                                                               [35;1H~                                                                                                                                                                                               [36;1H~                                                                                                                                                                                               [37;1H~                                                                                                                                                                                               [38;1H~                                                                                                                                                                                               [39;1H~                                                                                                                                                                                               [40;1H~                                                                                                                                                                                               [41;1H~                                                                                                                                                                                               [42;1H~                                                                                                                                                                                               [43;1H~                                                                                                                                                                                               [44;1H~                                                                                                                                                                                               [45;1H~                                                                                                                                                                                               [46;1H~                                                                                                                                                                                               [47;1H~                                                                                                                                                                                               [48;1H~                                                                                                                                                                                               [49;1H~                                                                                                                                                                                               [50;1H~                                                                                                                                                                                               [51;1H~                                                                                                                                                                                               [52;1H~                                                                                                                                                                                               [53;1H~                                                                                                                                                                                               [54;1H~                                                                                                                                                                                               [55;1H~                                                                                                                                                                                               [56;1H~                                                                                                                                                                                               [57;1H~                                                                                                                                                                                               [m[58;175H1,0-1[8C全部[1;1H[?12l[?25h[?25l[58;1H[1m-- 插入 --[m[58;11H[K[58;175H1,1[10C全部[1;1H[?12l[?25h[?25l[33md[m[58;177H2[1;2H[?12l[?25h[?25l[1;1H[K[58;177H1[1;1H[?12l[?25h[?25l[33ma[m[58;177H2[1;2H[?12l[?25h[?25l[33mad[m[58;177H3[1;3H[?12l[?25h[?25l[33mdd[m[58;177H4[1;4H[?12l[?25h[?25l[33mdi[m[58;177H5[1;5H[?12l[?25h[?25l[33min[m[58;177H6[1;6H[?12l[?25h[?25l[33mnt[m[58;177H7[1;7H[?12l[?25h[?25l[1;6H[K[58;177H6[1;6H[?12l[?25h[?25l[33mng[m[58;177H7[1;7H[?12l[?25h[?25l[33m [m[58;177H8[1;8H[?12l[?25h[?25l[33m l[m[58;177H9[1;9H[?12l[?25h[?25l[33mla[m[58;177H10[1;10H[?12l[?25h[?25l[33mab[m[58;178H1[1;11H[?12l[?25h[?25l[33mb1[m[58;178H2[1;12H[?12l[?25h[?25l[33m [m[58;178H3[1;13H[?12l[?25h[?25l[33m &[m[58;178H4[1;14H[?12l[?25h[?25l[33m [m[58;178H5[1;15H[?12l[?25h[?25l[33m l[m[58;178H6[1;16H[?12l[?25h[?25l[33mla[m[58;178H7[1;17H[?12l[?25h[?25l[33mab[m[58;178H8[1;18H[?12l[?25h[?25l[33mb1[m[58;178H9[1;19H[?12l[?25h[?25l[33m1.[m[58;177H20[1;20H[?12l[?25h[?25l[33m.c[m[58;178H1[1;21H[?12l[?25h[?25l[33mcp[m[58;178H2[1;22H[?12l[?25h[?25l[33mpp[m[58;178H3[1;23H[?12l[?25h[?25l[2;57r[2;1H[L[1;58r[58;175H[K[58;175H2,1[10C全部[2;1H[?12l[?25h[?25l[1;57r[57;1H
+[1;58r[1;1H[33madding lab1 & lab1.cpp[m[57;1H[1m[34m~                                                                                                                                                                                               [m[58;175H[K[58;175H1,23[9C全部[1;23H[?12l[?25h[58;1H[K[1;22H[?25l[58;175H1,22[9C全部[1;22H[?12l[?25h[?25l[58;175H[K[58;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 16L, 502C 已寫入
+[?1l>[?12l[?25h[?1049l[master 52e5dec] adding lab1 & lab1.cpp
+ 2 files changed, 307 insertions(+)
+ create mode 100644 lab1
+ create mode 100644 lab1.cpp
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git push lab1 master
+Username for 'https://github.com': micaeh   haelliao0826
+Password for 'https://michaelliao0826@github.com': 
+To https://github.com/michaelliao0826/lab1.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/michaelliao0826/lab1.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remoter[K rm lab1
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remote oe[Kriginaorigindorigindorigin origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remote add origin[3Prm lab1push lab1 master[10Pcommit[K add lab1.cpp[1Ppush --helplab1 masterremote show la
