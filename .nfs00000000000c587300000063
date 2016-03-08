@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Script started on 2016年03月08日 (週二) 13時16分59秒
 ]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ ls
 [0m[01;34mlab1[0m  lab1.script
@@ -343,18 +342,3 @@ usage: git remote add [<options>] <name> <url>
                           set up remote as a mirror to push to or fetch from
 
 ]0;F74046145@2015cpp: ~/lab1F74046145@2015cpp:~/lab1$ git remote add origin[3Prm lab1push lab1 master[10Pcommit[K add lab1.cpp[1Ppush --helplab1 masterremote show la
-=======
-Script started on 2016年03月05日 (週六) 00時21分57秒
-]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ whoami; [wd[K[K[Kpwd
-F74046145
-/home/F74046145
-]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ git config -l
-user.name=michaelliao0826
-user.email=a194748a@gmail.com
-]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ gir[Kt clone https://github.com/michaelliao0826/lab1.git
-Cloning into 'lab1'...
-warning: You appear to have cloned an empty repository.
-]0;F74046145@2015cpp: ~F74046145@2015cpp:~$ exit
-
-Script done on 2016年03月05日 (週六) 00時22分47秒
->>>>>>> fdde1bbfd82f9f7bb3edf887722be8cc5320a189
